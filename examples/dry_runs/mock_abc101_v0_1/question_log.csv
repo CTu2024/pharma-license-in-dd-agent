@@ -1,0 +1,8 @@
+Question ID,Workstream,Question,Why It Matters,Related Risk or Gap ID,Recipient,Priority,Status
+Q1,Clinical Evidence,"Please provide the full Phase 1b CSR, protocol, protocol amendments, SAP, clinical tables, listings, and patient-level adverse event data.","Needed to verify the claimed clinical activity and clean safety profile.",R1; G1; G2,Seller,High,Open
+Q2,Clinical Evidence,"Were there any post hoc endpoint changes, subgroup analyses, missing data adjustments, or analysis deviations from the original SAP?","Needed to assess statistical robustness and risk of selective reporting.",R1; G2,Seller,High,Open
+Q3,Target Biology,"Please provide the target validation package, including human disease evidence, nonclinical pharmacology, target engagement data, biomarker data, and relevant publications.","Needed to determine whether the mechanism is sufficiently validated for continued diligence.",R2; G5,Seller,High,Open
+Q4,CMC / Regulatory,"Please provide analytical method validation reports, specifications, batch release history, formulation development reports, and full stability data tables.","Needed to assess CMC readiness for the next development milestone.",R3; G3,Seller,High,Open
+Q5,CMC / Regulatory,"Please provide original agency meeting minutes, correspondence, briefing package, and written responses for the February 2026 regulatory interaction.","Needed to verify agency feedback and identify required studies or unresolved concerns.",R4; G4,Seller,High,Open
+Q6,Primary Diligence,"What specific rights, territories, field restrictions, sublicensing rights, and retained obligations are included in the proposed license?","Needed to frame legal, commercial, and valuation diligence.",Open question,Deal team,Medium,Open
+
