@@ -17,6 +17,7 @@
 - `clinical_evidence_review`: Clinical study quality, efficacy, safety, endpoints, populations, comparators, durability, and claimed product profile support.
 - `clinical_pharmacology_dose_review`: Dose rationale, PK/PD, exposure-response, bridging, and special population needs.
 - `biostatistical_robustness`: Power, endpoints, multiplicity, missing data, subgroup validity, and statistical reliability.
+- `cmc_readiness_review`: Process, formulation, analytical, stability, comparability, control strategy, supply, and CMC milestone readiness.
 - `regulatory_precedent_analysis`: Agency feedback, approval precedent, endpoint acceptability, label risk, and regional path.
 
 ### Market, Value, IP, Legal, And Deal

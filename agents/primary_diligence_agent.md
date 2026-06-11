@@ -67,6 +67,7 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 - Clinical Evidence: Clinical Evidence Review Skill
 - Clinical Pharmacology: Clinical Pharmacology Dose Review Skill
 - Biostatistics: Biostatistical Robustness Skill
+- CMC / Regulatory Readiness: CMC Readiness Review Skill
 - Regulatory Pathway: Regulatory Precedent Analysis Skill
 - Market Access / HEOR: Market Access / HEOR Gap Skill
 - Pricing: Pricing Analog Review Skill
