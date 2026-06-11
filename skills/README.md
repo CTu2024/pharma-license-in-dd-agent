@@ -14,6 +14,7 @@
 - `target_validation_review`: Target biology, mechanism, human validation, and translational rationale.
 - `dmpk_adme_interpretation`: ADME, PK, DDI, metabolism, clearance, bioavailability, and species translation.
 - `tox_package_review`: Toxicology package completeness, safety margins, target organs, and missing tox studies.
+- `clinical_evidence_review`: Clinical study quality, efficacy, safety, endpoints, populations, comparators, durability, and claimed product profile support.
 - `clinical_pharmacology_dose_review`: Dose rationale, PK/PD, exposure-response, bridging, and special population needs.
 - `biostatistical_robustness`: Power, endpoints, multiplicity, missing data, subgroup validity, and statistical reliability.
 - `regulatory_precedent_analysis`: Agency feedback, approval precedent, endpoint acceptability, label risk, and regional path.
@@ -31,4 +32,3 @@
 ## Usage Pattern
 
 Use shared skills in every diligence run. Add specialist skills only when the routed sub-agent needs that specific method.
-

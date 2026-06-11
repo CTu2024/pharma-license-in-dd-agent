@@ -64,6 +64,7 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 - Target Biology: Target Validation Review Skill
 - DMPK / ADME: DMPK / ADME Interpretation Skill
 - Toxicology: Toxicology Package Review Skill
+- Clinical Evidence: Clinical Evidence Review Skill
 - Clinical Pharmacology: Clinical Pharmacology Dose Review Skill
 - Biostatistics: Biostatistical Robustness Skill
 - Regulatory Pathway: Regulatory Precedent Analysis Skill
