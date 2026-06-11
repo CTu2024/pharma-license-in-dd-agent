@@ -49,6 +49,7 @@ Typical outputs:
 
 - [agents/](agents/README.md): Primary agent and specialist sub-agent charters.
 - [skills/](skills/README.md): Shared and specialist skill instructions.
+- [SKILL_COVERAGE.md](SKILL_COVERAGE.md): Sub-agent to specialist skill coverage matrix.
 - [workflows/](workflows/initial_triage_workflow.md): End-to-end diligence workflow.
 - [templates/](templates/): Standard memo, workstream report, risk, question, requirement, and source templates.
 - [examples/](examples/): Mock opportunity packages and dry runs.
@@ -136,4 +137,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 MIT. See [LICENSE](LICENSE).
-

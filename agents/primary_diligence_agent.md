@@ -69,12 +69,14 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 - Biostatistics: Biostatistical Robustness Skill
 - CMC / Regulatory Readiness: CMC Readiness Review Skill
 - Regulatory Pathway: Regulatory Precedent Analysis Skill
+- Competitive Landscape: Competitive Landscape Mapping Skill
 - Market Access / HEOR: Market Access / HEOR Gap Skill
 - Pricing: Pricing Analog Review Skill
 - IP Triage: IP Triage Review Skill
 - Legal And Contract: Contract Issue Spotting Skill
 - Financial Valuation: rNPV Assumption Review Skill
 - Deal Structure: Deal Structure Review Skill
+- Alliance Management: Alliance Governance Review Skill
 - Integration / Transition: Transition Planning Skill
 
 ## Standard Output

@@ -22,12 +22,14 @@
 
 ### Market, Value, IP, Legal, And Deal
 
+- `competitive_landscape_mapping`: Standard of care, approved competitors, pipeline threats, differentiation, and launch scenario implications.
 - `market_access_heor_gap`: Payer evidence, HTA risk, outcomes evidence, RWE, and access barriers.
 - `pricing_analog_review`: Price analogs, gross-to-net, regional pressure, payer constraints, and price sensitivity.
 - `ip_triage_review`: Patent estate, exclusivity, FTO flags, ownership, encumbrances, and counsel requests.
 - `contract_issue_spotting`: Rights, obligations, sublicensing, assignment, change-of-control, termination, and contract constraints.
 - `rnpv_assumption_review`: POS, cost, timeline, peak sales, milestones, royalties, scenarios, and valuation breakpoints.
 - `deal_structure_review`: License, option, co-development, milestones, royalties, governance, and risk-sharing terms.
+- `alliance_governance_review`: Governance bodies, decision rights, escalation, joint committees, operating model, and alliance execution risks.
 - `transition_planning`: Data, know-how, regulatory files, CMC, vendors, contracts, systems, people, and Day 1 readiness.
 
 ## Usage Pattern
