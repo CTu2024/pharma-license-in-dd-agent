@@ -37,7 +37,11 @@ Assessing whether available human clinical evidence supports the claimed product
 - `Low`: Based mainly on summaries, selected charts, exploratory analyses, weak design, limited safety exposure, or unverified claims.
 - `Not assessable`: Required clinical source documents or key analyses are missing.
 
+## References
+
+- Read `references/stage_requirements.md` when judging whether the clinical package is appropriate for Phase 1, Phase 2, Phase 3, registration, or commercial diligence.
+- Read `references/red_flags_and_scoring.md` when writing the workstream conclusion, rating clinical evidence strength, or drafting specific clinical document requests.
+
 ## Quality Boundary
 
 Do not treat a company-reported clinical signal as verified unless primary clinical documents support it. Do not collapse statistical robustness, dose rationale, regulatory acceptability, or commercial differentiation into the clinical evidence conclusion; route those to the relevant sub-agent when material.
-

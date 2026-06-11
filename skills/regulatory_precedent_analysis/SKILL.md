@@ -26,7 +26,11 @@ The opportunity depends on whether the proposed regulatory path is plausible.
 - Decision impact
 - Company request
 
+## References
+
+- Read `references/pathway_requirements.md` when defining required regulatory documents, phase-specific path questions, or precedent comparison fields.
+- Read `references/red_flags_and_scoring.md` when rating regulatory path confidence, identifying agency-path red flags, or drafting regulatory document requests.
+
 ## Quality Boundary
 
 Do not guarantee agency outcomes. Treat company-prepared agency summaries as secondary until original correspondence is reviewed.
-

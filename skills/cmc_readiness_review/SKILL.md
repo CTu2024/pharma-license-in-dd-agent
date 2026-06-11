@@ -36,7 +36,11 @@ Assessing whether the CMC package can support the asset's current stage, next cl
 - `At risk`: Gaps could delay the next milestone, increase cost, or require material remediation.
 - `Not assessable`: Primary CMC evidence is missing or too summary-level to judge.
 
+## References
+
+- Read `references/stage_requirements.md` when comparing the CMC package against preclinical, Phase 1, Phase 2, Phase 3, registration, or commercial expectations.
+- Read `references/red_flags_and_scoring.md` when rating CMC readiness, identifying milestone risk, or translating CMC findings into deal terms.
+
 ## Quality Boundary
 
 Do not treat a CMC summary as evidence of readiness when primary support is missing. Do not provide final GMP, quality release, process validation, or regulatory filing conclusions; escalate those to CMC, quality, and regulatory experts.
-

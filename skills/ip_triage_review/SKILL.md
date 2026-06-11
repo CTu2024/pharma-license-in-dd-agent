@@ -26,7 +26,11 @@ Exclusivity, patent coverage, FTO, ownership, or encumbrance issues could affect
 - Severity
 - Company request
 
+## References
+
+- Read `references/ip_package_requirements.md` when checking whether the patent, exclusivity, FTO, ownership, agreement, and encumbrance package is complete.
+- Read `references/red_flags_and_scoring.md` when rating IP triage risk, identifying issue-spotting flags for counsel, or drafting IP diligence questions.
+
 ## Quality Boundary
 
 This skill produces issue spotting for counsel, not legal advice, claim construction, enforceability opinions, or FTO opinions.
-

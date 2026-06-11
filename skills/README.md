@@ -35,3 +35,15 @@
 ## Usage Pattern
 
 Use shared skills in every diligence run. Add specialist skills only when the routed sub-agent needs that specific method.
+
+## Deepened Skills With References
+
+The following skills include structured reference files for deeper diligence:
+
+| Skill | Reference Files | Use |
+|---|---|---|
+| `clinical_evidence_review` | `references/stage_requirements.md`, `references/red_flags_and_scoring.md` | Phase-specific clinical evidence expectations, red flags, scoring, and document requests |
+| `cmc_readiness_review` | `references/stage_requirements.md`, `references/red_flags_and_scoring.md` | Stage-specific CMC requirements, milestone risk, readiness scoring, and deal implications |
+| `regulatory_precedent_analysis` | `references/pathway_requirements.md`, `references/red_flags_and_scoring.md` | Regulatory document requirements, precedent review, path confidence, and agency red flags |
+| `ip_triage_review` | `references/ip_package_requirements.md`, `references/red_flags_and_scoring.md` | IP package completeness, asset-type focus, triage scoring, and counsel questions |
+| `biostatistical_robustness` | `references/study_design_checklist.md`, `references/red_flags_and_scoring.md` | Study design checks, statistical red flags, robustness scoring, and analysis requests |

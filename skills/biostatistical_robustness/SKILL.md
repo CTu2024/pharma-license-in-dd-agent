@@ -26,7 +26,11 @@ Clinical claims depend on study design, analysis quality, or interpretation of s
 - Impact on decision
 - Company request
 
+## References
+
+- Read `references/study_design_checklist.md` when reviewing protocol, SAP, endpoint hierarchy, estimands, sample size, or study design adequacy.
+- Read `references/red_flags_and_scoring.md` when rating robustness, identifying statistical red flags, or drafting statistical document and analysis requests.
+
 ## Quality Boundary
 
 Do not treat post hoc, underpowered, unadjusted, or selectively reported findings as confirmatory.
-
