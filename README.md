@@ -15,6 +15,7 @@ This is a reusable diligence operating model. It helps an AI agent or human team
 - integrate risks across clinical, CMC, regulatory, IP, market access, valuation, and deal structure
 - generate precise company follow-up requests
 - produce a decision-ready executive memo
+- support early scouting decisions when only high-level non-confidential information is available
 
 ## What This Is Not
 
@@ -76,9 +77,19 @@ The operating model has three layers:
 
 ## Quick Start
 
-Review the main workflow:
+For early scouting with only non-confidential information, start here:
+
+[workflows/scouting_triage_workflow.md](workflows/scouting_triage_workflow.md)
+
+Use the scouting template:
+
+[templates/scouting_memo.md](templates/scouting_memo.md)
+
+For fuller diligence triage, review the main workflow:
 
 [workflows/initial_triage_workflow.md](workflows/initial_triage_workflow.md)
+
+Use scouting mode before CDA or data-room access; use initial triage after enough confidential or primary source material is available.
 
 Then inspect the richer mock dry run:
 

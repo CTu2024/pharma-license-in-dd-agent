@@ -2,6 +2,7 @@
 
 ## Shared Skills
 
+- `scouting_triage`: Early BD scouting from non-confidential, public, teaser, or high-level information before CDA/full diligence.
 - `evidence_traceability`: Citation discipline, source hierarchy, fact/assumption separation, and audit trail.
 - `data_room_gap_review`: Stage-aware data room completeness review and company request generation.
 - `risk_matrix_writing`: Standardized risk statements, severity, likelihood, mitigation, and owner.
