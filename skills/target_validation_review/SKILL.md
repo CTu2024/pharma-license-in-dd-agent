@@ -26,7 +26,11 @@ Assessing whether the target and mechanism are strong enough to support continue
 - Key limitations
 - Diligence questions
 
+## References
+
+- Read `references/early_cda_target_screen.md` when reviewing target biology from non-confidential or high-level materials before CDA.
+- Read `references/translational_red_flags.md` when rating target validation confidence or writing target-biology CDA gate questions.
+
 ## Quality Boundary
 
 Do not treat animal efficacy, pathway plausibility, or biomarker movement as human proof unless clinical or genetic evidence supports that inference.
-

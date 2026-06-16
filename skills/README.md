@@ -48,3 +48,8 @@ The following skills include structured reference files for deeper diligence:
 | `regulatory_precedent_analysis` | `references/pathway_requirements.md`, `references/red_flags_and_scoring.md` | Regulatory document requirements, precedent review, path confidence, and agency red flags |
 | `ip_triage_review` | `references/ip_package_requirements.md`, `references/red_flags_and_scoring.md` | IP package completeness, asset-type focus, triage scoring, and counsel questions |
 | `biostatistical_robustness` | `references/study_design_checklist.md`, `references/red_flags_and_scoring.md` | Study design checks, statistical red flags, robustness scoring, and analysis requests |
+| `scouting_triage` | `references/cda_gate_question_library.md`, `references/scouting_score_and_actions.md`, `references/intro_call_agenda.md` | CDA gate questions, scouting action rules, and intro-call planning |
+| `target_validation_review` | `references/early_cda_target_screen.md`, `references/translational_red_flags.md` | Target validation confidence, human evidence hierarchy, translational red flags, and CDA questions |
+| `dmpk_adme_interpretation` | `references/biologic_pk_ada_checklist.md`, `references/dose_convenience_claim_test.md` | Biologic PK/ADA checks, dose convenience claims, and first-in-human exposure questions |
+| `tox_package_review` | `references/ind_tox_readiness_checklist.md`, `references/fih_safety_margin_questions.md` | IND-enabling tox readiness, FIH safety margin, and biologic safety questions |
+| `competitive_landscape_mapping` | `references/early_competitive_screen.md`, `references/differentiation_scorecard.md` | Early competitive screening, differentiation scoring, and "what must be true to win" logic |

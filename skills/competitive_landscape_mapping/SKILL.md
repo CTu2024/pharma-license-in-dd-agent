@@ -36,7 +36,11 @@ Assessing whether an asset's differentiation is credible against current and fut
 - `Weak`: Advantage is small, unsupported, commercially irrelevant, or easily matched.
 - `Not assessable`: Required comparator, endpoint, label, or pipeline evidence is missing.
 
+## References
+
+- Read `references/early_competitive_screen.md` when evaluating competitive attractiveness from non-confidential materials before CDA.
+- Read `references/differentiation_scorecard.md` when rating differentiation, writing "what must be true to win," or drafting competitive CDA gate questions.
+
 ## Quality Boundary
 
 Do not treat convenience, mechanism novelty, or company positioning as differentiation unless it is linked to evidence that matters to clinicians, patients, payers, regulators, or launch uptake.
-

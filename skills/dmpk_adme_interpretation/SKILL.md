@@ -26,7 +26,11 @@ Dose, exposure, metabolism, DDI, or translation uncertainty may affect developme
 - Risk level
 - Specific company request
 
+## References
+
+- Read `references/biologic_pk_ada_checklist.md` when reviewing antibody or biologic PK, ADA, FcRn, half-life, or first-in-human dose assumptions.
+- Read `references/dose_convenience_claim_test.md` when the opportunity claims long-acting dosing, Q4W/Q8W/Q12W/Q3M convenience, or better exposure as differentiation.
+
 ## Quality Boundary
 
 Do not infer safety margin or dose adequacy from PK alone. Link exposure to pharmacology, toxicology, and clinical context.
-

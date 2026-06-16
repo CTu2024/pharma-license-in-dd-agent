@@ -85,6 +85,12 @@ Cover these areas when relevant:
 - Walk-away signals
 - Recommended next action
 
+## References
+
+- Read `references/cda_gate_question_library.md` when writing CDA gate questions or separating pre-CDA, post-CDA, and internal alignment questions.
+- Read `references/scouting_score_and_actions.md` when converting a scouting review into pass, monitor, intro call, request follow-up, or proceed-to-CDA action.
+- Read `references/intro_call_agenda.md` when the recommended next action includes an intro call.
+
 ## Quality Boundary
 
 Do not penalize the company simply because detailed data are unavailable at scouting stage. Instead, identify whether the high-level story is compelling enough to justify the next BD step and what must be verified after CDA.

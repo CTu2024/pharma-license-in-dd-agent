@@ -26,7 +26,11 @@ Nonclinical safety evidence may affect clinical progression, regulatory readines
 - Severity and likelihood
 - Required follow-up
 
+## References
+
+- Read `references/ind_tox_readiness_checklist.md` when reviewing IND-enabling or pre-first-in-human toxicology readiness.
+- Read `references/fih_safety_margin_questions.md` when assessing NOAEL/HNSTD/MABEL, safety margin, monitorability, or first-in-human risk.
+
 ## Quality Boundary
 
 Do not call a tox issue acceptable without exposure, reversibility, monitorability, and stage-appropriate study context.
-
