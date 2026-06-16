@@ -53,9 +53,15 @@ Rationale:
 
 ## CDA Gate Questions
 
-| Question | Why It Matters | Required Before CDA? |
+| Category | Question | Why It Matters | Timing |
+|---|---|---|---|
+| Strategic fit / Reason to believe / Lead indication / Differentiation / Development feasibility / Regulatory / IP-control / Transaction process / Seller motivation / Internal alignment |  |  | Must answer before CDA / Can answer after CDA / Internal alignment needed |
+
+## Internal Alignment Questions
+
+| Question | Owner | Why It Matters |
 |---|---|---|
-|  |  | Yes / No |
+|  | BD / R&D / Commercial / Legal / Finance / Governance |  |
 
 ## Walk-Away Signals
 
@@ -64,4 +70,3 @@ Rationale:
 ## Recommended Next Action
 
 - 
-

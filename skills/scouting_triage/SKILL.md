@@ -24,6 +24,9 @@ Focus on:
 - key unverified claims
 - non-confidential follow-up questions
 - CDA gate questions
+- strategic and transaction go/no-go questions
+- seller motivation and process risk
+- internal alignment questions
 - pass / monitor / proceed logic
 
 ## Scouting Recommendation Labels
@@ -43,8 +46,31 @@ Use one:
 3. List 3-5 reasons the opportunity could be interesting.
 4. List the key unverified claims that drive the opportunity story.
 5. Score strategic fit and evidence maturity using high / medium / low / unknown.
-6. Identify what can be asked without CDA versus what requires confidential diligence.
-7. Define walk-away signals and next action.
+6. Identify decision questions beyond missing data: strategic fit, lead indication logic, differentiation, development feasibility, IP/control, seller motivation, process risk, and internal appetite.
+7. Identify what can be asked without CDA versus what requires confidential diligence.
+8. Define walk-away signals and next action.
+
+## CDA Gate Question Categories
+
+For scouting outputs, include questions in three buckets:
+
+- `Must answer before CDA`: Needed to decide whether signing a CDA is worth the team's time and confidentiality exposure.
+- `Can answer after CDA`: Appropriate for confidential diligence once the opportunity passes the scouting threshold.
+- `Internal alignment needed`: Questions the BD team should answer internally before spending more time.
+
+Cover these areas when relevant:
+
+- **Strategic fit**: fit with therapeutic area, modality, stage, geography, portfolio, and risk appetite.
+- **Reason to believe**: strongest evidence point, weakest link, data source quality, and whether the story is scientifically credible.
+- **Lead indication logic**: why this indication first, what was deprioritized, and what PoC would prove.
+- **Differentiation**: what must be true to beat standard of care and nearest competitors.
+- **Data existence**: whether full primary reports exist today, not only whether they can be shared.
+- **Development feasibility**: next value inflection, critical path, likely delays, and partner capabilities needed.
+- **Regulatory reality**: agency interaction status, endpoint/study precedent, and regulatory assumptions.
+- **IP and control**: ownership, licensed rights, field/territory limits, sublicensing, FTO, and exclusivity runway.
+- **Transaction process**: desired deal type, rights available, process timeline, competitive process, and valuation expectations.
+- **Seller motivation**: why partner now, what they need from a partner, and non-negotiables.
+- **Internal decision**: who cares internally, what risk appetite applies, and what evidence is required before economics.
 
 ## Output Fields
 
@@ -55,10 +81,10 @@ Use one:
 - Strategic fit scorecard
 - Non-confidential follow-up requests
 - CDA gate questions
+- Internal alignment questions
 - Walk-away signals
 - Recommended next action
 
 ## Quality Boundary
 
 Do not penalize the company simply because detailed data are unavailable at scouting stage. Instead, identify whether the high-level story is compelling enough to justify the next BD step and what must be verified after CDA.
-
