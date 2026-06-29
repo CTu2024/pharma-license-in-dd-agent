@@ -9,6 +9,7 @@ This matrix maps each sub-agent to its primary specialist skill. All sub-agents 
 
 | Sub-Agent | Primary Specialist Skill | Status |
 |---|---|---|
+| Scouting Triage | `scouting_triage` | Covered |
 | Target Biology | `target_validation_review` | Covered |
 | DMPK / ADME | `dmpk_adme_interpretation` | Covered |
 | Toxicology | `tox_package_review` | Covered |
@@ -29,7 +30,7 @@ This matrix maps each sub-agent to its primary specialist skill. All sub-agents 
 
 ## Notes
 
+- Scouting Triage is a pre-CDA business development screen. It uses `templates/scouting_memo.md` and `templates/scouting_scorecard.csv` rather than full diligence workstream reports.
 - Some sub-agents may use multiple specialist skills in a real diligence run.
 - CMC / Regulatory Readiness uses CMC Readiness Review for CMC package maturity; Regulatory Pathway uses Regulatory Precedent Analysis for agency path and precedent.
 - Legal and IP skills are issue-spotting aids for qualified counsel, not legal advice.
-

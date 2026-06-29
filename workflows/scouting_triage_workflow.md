@@ -6,6 +6,10 @@ Evaluate early pharma license-in opportunities when only non-confidential or hig
 
 This workflow is for business development scouting, not full due diligence.
 
+## Owner
+
+Use `agents/scouting_triage_agent.md` with the `scouting_triage` skill.
+
 ## Inputs
 
 - Non-confidential deck
@@ -63,4 +67,3 @@ This workflow is for business development scouting, not full due diligence.
 - Do not treat missing detailed data as a defect by itself.
 - Separate "interesting if true" from "verified."
 - Make the recommended next BD action concrete.
-

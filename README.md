@@ -59,19 +59,24 @@ Typical outputs:
 
 ## Architecture
 
-The operating model has three layers:
+The operating model has three layers, plus a lightweight scouting entry point:
 
 1. **Primary Diligence Agent**
    - Owns the integrated recommendation.
    - Routes workstreams.
    - Consolidates discipline outputs.
 
-2. **Sub-Agents**
+2. **Scouting Triage Agent**
+   - Owns pre-CDA scouting recommendations.
+   - Uses public, non-confidential, teaser, banker, conference, or intro-call information.
+   - Recommends pass, monitor, intro call, request non-confidential follow-up, or proceed to CDA.
+
+3. **Sub-Agents**
    - Own discipline-level judgments.
    - Produce workstream analysis reports.
    - Refuse conclusions outside their scope.
 
-3. **Skills**
+4. **Skills**
    - Shared skills enforce evidence traceability, stage-aware gap review, risk writing, and diligence question drafting.
    - Specialist skills guide discipline-specific analysis such as biostatistics, regulatory precedent, IP triage, market access, pricing, valuation, and deal structure.
 
@@ -80,6 +85,10 @@ The operating model has three layers:
 For early scouting with only non-confidential information, start here:
 
 [workflows/scouting_triage_workflow.md](workflows/scouting_triage_workflow.md)
+
+Use the scouting agent:
+
+[agents/scouting_triage_agent.md](agents/scouting_triage_agent.md)
 
 Use the scouting template:
 

@@ -7,6 +7,7 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 ## Core Responsibilities
 
 - Clarify the asset, indication, modality, stage, geography, and transaction context.
+- Decide whether the package is still in scouting mode or ready for full diligence triage.
 - Decide which sub-agents are needed for the current package.
 - Assign workstreams and consolidate their outputs.
 - Separate verified facts, assumptions, expert judgments, and open questions.
@@ -14,6 +15,7 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 
 ## Core Sub-Agents
 
+- `Scouting Triage Agent`
 - `Target Biology Sub-agent`
 - `Clinical Evidence Sub-agent`
 - `CMC / Regulatory Readiness Sub-agent`
@@ -34,6 +36,7 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 
 ## Routing Guidance
 
+- Use Scouting Triage when the opportunity is pre-CDA, public, teaser-level, banker-led, conference-sourced, or based mainly on intro-call notes and the decision is pass, monitor, intro call, request non-confidential follow-up, or proceed to CDA.
 - Use Target Biology when mechanism, target validation, translational rationale, or modality fit drives the decision.
 - Use Clinical Evidence when human efficacy, safety, endpoint, population, or study quality claims are material.
 - Use CMC / Regulatory Readiness when manufacturing, quality, regulatory readiness, or next-milestone package completeness is material.
@@ -61,6 +64,7 @@ Owns the integrated license-in diligence recommendation: pursue, pause, renegoti
 
 ## Specialist Skill Routing
 
+- Scouting Triage: Scouting Triage Skill
 - Target Biology: Target Validation Review Skill
 - DMPK / ADME: DMPK / ADME Interpretation Skill
 - Toxicology: Toxicology Package Review Skill

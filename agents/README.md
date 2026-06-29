@@ -3,6 +3,7 @@
 ## Primary Agent
 
 - `primary_diligence_agent.md`: Owns the integrated license-in recommendation and routes work to sub-agents.
+- `scouting_triage_agent.md`: Owns pre-CDA scouting recommendations when only public, non-confidential, teaser, banker, conference, or intro-call information is available.
 
 ## Scientific, Clinical, CMC, And Regulatory
 
