@@ -39,6 +39,18 @@ Use one:
 - `Request Non-Confidential Follow-Up`: Worth asking for more non-confidential detail before CDA.
 - `Proceed To CDA / Confidential Diligence`: Strong enough fit and enough plausibility to justify confidential review.
 
+## Decision Logic
+
+Recommend `Pass` when strategic fit is low, the core claim is implausible from available information, rights are unavailable, or the opportunity conflicts with current portfolio/risk appetite.
+
+Recommend `Monitor` when the opportunity is directionally interesting but too early, inactive, not actionable, or missing a clear near-term BD decision.
+
+Recommend `Intro Call` when the opportunity has plausible strategic fit but basic facts, seller motivation, rights, or development path need clarification.
+
+Recommend `Request Non-Confidential Follow-Up` when the opportunity is interesting enough to pursue but the next decision can be made without CDA.
+
+Recommend `Proceed To CDA / Confidential Diligence` only when strategic fit is medium/high, the value-driving hypothesis is plausible, the opportunity is actionable, and at least one confidential data package would materially change the decision.
+
 ## Review Method
 
 1. Identify source type and evidence maturity.
