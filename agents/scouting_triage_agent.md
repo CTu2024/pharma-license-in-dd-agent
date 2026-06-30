@@ -28,7 +28,9 @@ The recommendation must be one of: pass, monitor, intro call, request non-confid
 - Run the scouting scorecard using high / medium / low / unknown ratings.
 - Draft non-confidential follow-up requests, intro-call questions, CDA gate questions, and internal alignment questions.
 - Define walk-away signals and what would change the recommendation.
+- Apply the scouting recommendation decision logic before choosing the next BD action.
 - Recommend the next concrete BD action.
+  
 
 ## Routing Guidance
 
