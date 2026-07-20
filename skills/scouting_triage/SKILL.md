@@ -1,108 +1,87 @@
 ---
 name: scouting-triage
-description: Use for early pharma license-in scouting when only non-confidential, teaser, banker deck, conference, public, or high-level information is available and the goal is to decide whether to pass, monitor, request follow-up, schedule an intro call, or proceed to CDA/confidential diligence.
+description: Evaluate early pharma license-in opportunities from public, non-confidential, teaser, banker-deck, conference, or intro-call information and recommend whether to pass, monitor, schedule an intro call, request non-confidential follow-up, or seek human authorization to proceed to CDA/confidential diligence. Use for pre-CDA scouting memos, scorecards, follow-up questions, CDA gate questions, and next-step decisions; do not use as a substitute for full confidential diligence.
 ---
 
-# Scouting Triage Skill
+# Scouting Triage
 
-## Use When
+## Objective
 
-Use this skill before full diligence, especially when the input is a non-confidential deck, teaser, public abstract, conference deck, banker outreach, or intro-call notes.
+Determine the smallest decision-useful next BD step without treating sparse scouting information as a full diligence package.
 
-## Goal
+## Operating Principles
 
-Help the deal-searching person decide whether the opportunity deserves more time, a follow-up call, non-confidential clarification, or CDA/confidential diligence.
+- Treat the available material as evidence with limitations, not as verified seller claims.
+- Separate observed facts, seller assertions, external corroboration, and analyst hypotheses.
+- Calibrate conclusions to source quality and evidence maturity.
+- Treat unavailable confidential detail as an information boundary, not an adverse finding by itself.
+- Focus on whether the opportunity merits the next increment of time, disclosure, and internal attention.
+- State what new information would change the recommendation.
 
-## Do Not Over-Diligence
+## Workflow
 
-At scouting stage, do not produce a full diligence conclusion, detailed valuation, or discipline-level workstream reports unless specifically requested.
+1. **Set the boundary.** Identify the immediate BD decision, available source types, dates, confidentiality status, and material source limitations. If confidential primary materials require integrated review, stop scouting and route to full diligence.
+2. **Build the snapshot.** Capture the company, asset, target or pathway, modality, stage, indications, geography, proposed transaction, available rights, seller motivation, and process timing. Mark unknowns explicitly.
+3. **Frame the opportunity thesis.** State three to five reasons the opportunity could matter. Phrase unsupported value-driving statements as hypotheses or unverified claims.
+4. **Identify decision-critical claims.** For each claim, record why it matters, available support, confidence, and whether it can be clarified before CDA or requires confidential diligence.
+5. **Score the opportunity.** Use `High / Medium / Low / Unknown` and apply `references/scouting_score_and_actions.md`. Do not convert unknown into low unless the absence itself is decision-relevant and supported.
+6. **Test actionability.** Assess strategic fit, reason to believe, differentiation, lead-indication logic, development feasibility, IP and control, available rights, seller motivation, process risk, internal ownership, and timing only to the depth supported by the sources.
+7. **Separate the questions.** Classify questions as `Must Answer Before CDA`, `Can Answer After CDA`, or `Internal Alignment Needed`. Read `references/cda_gate_question_library.md` when drafting them.
+8. **Select one next action.** Apply the recommendation criteria below, explain the decisive factors, identify walk-away signals, and state what would trigger reassessment.
+9. **Produce the deliverables.** Complete `templates/scouting_memo.md` and `templates/scouting_scorecard.csv`. Preserve uncertainty instead of filling gaps with assumptions.
 
-Focus on:
+## Recommendation Criteria
 
-- strategic fit
-- why the opportunity could matter
-- key unverified claims
-- non-confidential follow-up questions
-- CDA gate questions
-- strategic and transaction go/no-go questions
-- seller motivation and process risk
-- internal alignment questions
-- pass / monitor / proceed logic
+- **Pass** — Use when the opportunity is outside mandate, materially lacks strategic fit, has no credible visible reason to believe, offers incompatible or unavailable rights, or presents a supported walk-away signal that additional scouting is unlikely to cure.
+- **Monitor** — Use when the opportunity is potentially relevant but too early, inactive, not presently actionable, dependent on a future inflection, or lacks an internal reason to act now. Define the monitoring trigger and timing.
+- **Intro Call** — Use when plausible fit exists and a short conversation can efficiently clarify basic facts, seller motivation, rights, data existence, lead indication, development path, or process. Read `references/intro_call_agenda.md`.
+- **Request Non-Confidential Follow-Up** — Use when the opportunity merits further review and specific non-confidential materials or answers can resolve the next decision without CDA. Request only decision-relevant items.
+- **Proceed To CDA / Confidential Diligence** — Recommend seeking human authorization when strategic fit is at least medium, the value-driving hypothesis is plausible, relevant rights may be available, an internal owner exists, and identified confidential materials could materially change the decision. A recommendation is not authorization to execute a CDA.
 
-## Scouting Recommendation Labels
+If more than one action appears viable, choose the least costly action that can resolve the decisive uncertainty, unless process timing creates a documented reason to escalate faster.
 
-Use one:
+## Question Design
 
-- `Pass`: Not a fit or clearly unattractive from available information.
-- `Monitor`: Interesting but too early, too incomplete, or not currently actionable.
-- `Intro Call`: Worth a short call to clarify basics before deeper work.
-- `Request Non-Confidential Follow-Up`: Worth asking for more non-confidential detail before CDA.
-- `Proceed To CDA / Confidential Diligence`: Strong enough fit and enough plausibility to justify confidential review.
+Draft questions that test decisions rather than merely inventory missing data:
 
-## Decision Logic
+- Ask what evidence exists, its status, and what it supports.
+- Ask what must be true for differentiation and development success.
+- Ask why the lead indication and partnering timing were selected.
+- Ask which rights are available and what process constraints apply.
+- Ask who owns the opportunity internally and what threshold is required for the next step.
 
-Recommend `Pass` when strategic fit is low, the core claim is implausible from available information, rights are unavailable, or the opportunity conflicts with current portfolio/risk appetite.
+Do not request raw data, full reports, contracts, privileged analysis, or other confidential material before the appropriate CDA and access controls are in place.
 
-Recommend `Monitor` when the opportunity is directionally interesting but too early, inactive, not actionable, or missing a clear near-term BD decision.
+## Required Output
 
-Recommend `Intro Call` when the opportunity has plausible strategic fit but basic facts, seller motivation, rights, or development path need clarification.
+Include:
 
-Recommend `Request Non-Confidential Follow-Up` when the opportunity is interesting enough to pursue but the next decision can be made without CDA.
+- source inventory, dates, confidentiality status, and limitations;
+- opportunity and transaction snapshot;
+- reasons the opportunity could matter;
+- key unverified claims and confidence;
+- scorecard with concise rationales;
+- non-confidential follow-up requests;
+- pre-CDA, post-CDA, and internal-alignment questions;
+- supported walk-away signals;
+- information that would change the recommendation; and
+- one recommended next action with rationale and owner or trigger where known.
 
-Recommend `Proceed To CDA / Confidential Diligence` only when strategic fit is medium/high, the value-driving hypothesis is plausible, the opportunity is actionable, and at least one confidential data package would materially change the decision.
+## Quality Checks
 
-## Review Method
+Before delivering, confirm that:
 
-1. Identify source type and evidence maturity.
-2. Summarize the asset, company, modality, target, stage, indications, and proposed transaction if known.
-3. List 3-5 reasons the opportunity could be interesting.
-4. List the key unverified claims that drive the opportunity story.
-5. Score strategic fit and evidence maturity using high / medium / low / unknown.
-6. Identify decision questions beyond missing data: strategic fit, lead indication logic, differentiation, development feasibility, IP/control, seller motivation, process risk, and internal appetite.
-7. Identify what can be asked without CDA versus what requires confidential diligence.
-8. Define walk-away signals and next action.
-
-## CDA Gate Question Categories
-
-For scouting outputs, include questions in three buckets:
-
-- `Must answer before CDA`: Needed to decide whether signing a CDA is worth the team's time and confidentiality exposure.
-- `Can answer after CDA`: Appropriate for confidential diligence once the opportunity passes the scouting threshold.
-- `Internal alignment needed`: Questions the BD team should answer internally before spending more time.
-
-Cover these areas when relevant:
-
-- **Strategic fit**: fit with therapeutic area, modality, stage, geography, portfolio, and risk appetite.
-- **Reason to believe**: strongest evidence point, weakest link, data source quality, and whether the story is scientifically credible.
-- **Lead indication logic**: why this indication first, what was deprioritized, and what PoC would prove.
-- **Differentiation**: what must be true to beat standard of care and nearest competitors.
-- **Data existence**: whether full primary reports exist today, not only whether they can be shared.
-- **Development feasibility**: next value inflection, critical path, likely delays, and partner capabilities needed.
-- **Regulatory reality**: agency interaction status, endpoint/study precedent, and regulatory assumptions.
-- **IP and control**: ownership, licensed rights, field/territory limits, sublicensing, FTO, and exclusivity runway.
-- **Transaction process**: desired deal type, rights available, process timeline, competitive process, and valuation expectations.
-- **Seller motivation**: why partner now, what they need from a partner, and non-negotiables.
-- **Internal decision**: who cares internally, what risk appetite applies, and what evidence is required before economics.
-
-## Output Fields
-
-- Source type and confidence
-- Opportunity snapshot
-- Why this could be interesting
-- Key unverified claims
-- Strategic fit scorecard
-- Non-confidential follow-up requests
-- CDA gate questions
-- Internal alignment questions
-- Walk-away signals
-- Recommended next action
+- every material conclusion is traceable to a source or clearly labeled as inference or hypothesis;
+- confidence does not exceed the quality of the supporting evidence;
+- `Unknown` is used where the package does not support a rating;
+- missing confidential information is not treated as a defect without a separate reason;
+- the output does not imply final scientific, clinical, legal, regulatory, valuation, or investment approval;
+- the questions are prioritized and tied to a decision;
+- the recommendation is exactly one allowed action; and
+- the proposed next step is concrete and proportionate.
 
 ## References
 
-- Read `references/cda_gate_question_library.md` when writing CDA gate questions or separating pre-CDA, post-CDA, and internal alignment questions.
-- Read `references/scouting_score_and_actions.md` when converting a scouting review into pass, monitor, intro call, request follow-up, or proceed-to-CDA action.
-- Read `references/intro_call_agenda.md` when the recommended next action includes an intro call.
-
-## Quality Boundary
-
-Do not penalize the company simply because detailed data are unavailable at scouting stage. Instead, identify whether the high-level story is compelling enough to justify the next BD step and what must be verified after CDA.
+- Read `references/scouting_score_and_actions.md` to score dimensions, apply action thresholds, and identify scouting kill signals.
+- Read `references/cda_gate_question_library.md` to separate pre-CDA, post-CDA, and internal-alignment questions.
+- Read `references/intro_call_agenda.md` when recommending or preparing an intro call.
