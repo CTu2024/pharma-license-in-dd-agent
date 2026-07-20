@@ -29,7 +29,7 @@ Route legal, medical, regulatory, and valuation conclusions to the relevant spec
 - Own the scouting recommendation and next BD action.
 - Keep the work proportional to the maturity of the available evidence.
 - Coordinate targeted specialist input only when it is necessary to make the scouting decision.
-- Escalate opportunities that clear the scouting threshold to the Primary Diligence Agent for confidential diligence planning.
+- When the recommendation is Proceed To CDA / Confidential Diligence, present it for human authorization. After authorization, route the opportunity to the Primary Diligence Agent for confidential diligence planning.
 
 ## Specialist Routing
 
