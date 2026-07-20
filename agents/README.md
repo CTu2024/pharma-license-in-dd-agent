@@ -1,9 +1,11 @@
 # Agent Index
 
-## Primary Agent
+## Operational Mode Owners
 
-- `primary_diligence_agent.md`: Owns the integrated license-in recommendation and routes work to sub-agents.
-- `scouting_triage_agent.md`: Owns pre-CDA scouting recommendations when only public, non-confidential, teaser, banker, conference, or intro-call information is available.
+- `scouting_triage_agent.md`: Owns and terminates a public or explicitly non-confidential Scouting engagement.
+- `primary_diligence_agent.md`: Independently owns a confidential, primary, data-room, or discipline-level diligence engagement and its integrated recommendation.
+
+Scouting does not activate Primary Diligence automatically. A later user request with substantive diligence material begins a separate Primary Diligence engagement.
 
 ## Scientific, Clinical, CMC, And Regulatory
 

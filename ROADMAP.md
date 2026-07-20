@@ -7,7 +7,7 @@ Status: scaffolded.
 - Define MVP scope.
 - Create primary agent and three starter sub-agent charters.
 - Create four shared skills.
-- Create initial triage workflow.
+- Create Primary Diligence engagement workflow.
 - Create output templates.
 - Create mock example and expected output.
 

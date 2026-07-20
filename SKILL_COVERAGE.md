@@ -1,6 +1,6 @@
 # Skill Coverage Matrix
 
-This matrix maps each sub-agent to its primary specialist skill. All sub-agents also use the shared skills:
+This matrix maps each agent to its primary specialist skill. Primary Diligence workstreams also use the shared skills:
 
 - Evidence Traceability
 - Data Room Gap Review
@@ -30,7 +30,7 @@ This matrix maps each sub-agent to its primary specialist skill. All sub-agents 
 
 ## Notes
 
-- Scouting Triage is a pre-CDA business development screen. It uses `templates/scouting_memo.md` and `templates/scouting_scorecard.csv` rather than full diligence workstream reports.
+- Scouting Triage is an independent public or explicitly non-confidential engagement. It uses `scouting_triage`, `evidence_traceability`, and `diligence_question_drafting`, produces the scouting templates, and ends without activating Primary Diligence.
 - Some sub-agents may use multiple specialist skills in a real diligence run.
 - CMC / Regulatory Readiness uses CMC Readiness Review for CMC package maturity; Regulatory Pathway uses Regulatory Precedent Analysis for agency path and precedent.
 - Legal and IP skills are issue-spotting aids for qualified counsel, not legal advice.

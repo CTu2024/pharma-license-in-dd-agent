@@ -1,69 +1,33 @@
-# Scouting Triage Workflow
+# Scouting Engagement Workflow
 
-## Purpose
+## Entry
 
-Evaluate early pharma license-in opportunities when only non-confidential or high-level information is available.
+Use this workflow only when the user supplies public or explicitly non-confidential information and asks whether an early pharma license-in opportunity merits another BD step.
 
-This workflow is for business development scouting, not full due diligence.
+If confidentiality status is unclear, clarify it before reviewing the material.
 
 ## Owner
 
-Use `agents/scouting_triage_agent.md` with the `scouting_triage` skill.
+Use `agents/scouting_triage_agent.md` with `skills/scouting_triage/SKILL.md`.
 
-## Inputs
+## Process
 
-- Non-confidential deck
-- Banker teaser
-- Public company presentation
-- Conference abstract or poster
-- Intro-call notes
-- Public pipeline or press release information
+1. Confirm the Scouting entry conditions and immediate BD decision.
+2. Run the Scouting Triage skill against the supplied sources.
+3. Obtain targeted specialist input only if a narrow question is essential to the scouting recommendation.
+4. Produce `templates/scouting_memo.md` and `templates/scouting_scorecard.csv`.
+5. Present exactly one recommendation and end the engagement.
 
-## Steps
+## Exit
 
-1. **Classify the source**
-   - Identify whether the input is public, non-confidential, teaser, banker deck, intro-call notes, or mixed.
-   - State source limitations clearly.
+- `Pass` → close the opportunity unless a human later reopens it with new information.
+- `Monitor` → record the reassessment trigger and timing; end the current engagement.
+- `Intro Call` → provide the agenda and questions; end the current engagement.
+- `Request Non-Confidential Follow-Up` → provide prioritized requests; end the current engagement.
+- `Recommend CDA / Confidential Diligence` → present the recommendation for human decision; end the current engagement.
 
-2. **Create opportunity snapshot**
-   - Company
-   - Asset
-   - Target / pathway
-   - Modality
-   - Stage
-   - Indications
-   - Proposed transaction or rights, if known
-   - Timing pressure, if known
+Do not execute a CDA, activate the Primary Diligence Agent, or continue automatically into confidential diligence.
 
-3. **Identify why it could be interesting**
-   - Capture the top 3-5 potential reasons to care.
-   - Keep these as hypotheses, not verified diligence conclusions.
+## Later Diligence
 
-4. **Identify key unverified claims**
-   - List the claims that would drive value if true.
-   - Label whether each can be clarified without CDA or requires confidential diligence.
-
-5. **Run scouting scorecard**
-   - Score strategic fit, scientific rationale, differentiation, development feasibility, competitive attractiveness, evidence maturity, transaction attractiveness, and urgency.
-   - Use `High / Medium / Low / Unknown`.
-
-6. **Define next-step questions**
-   - Non-confidential follow-up requests.
-   - Intro-call questions.
-   - CDA gate questions.
-
-7. **Recommend scouting action**
-   - Choose one: pass, monitor, intro call, request non-confidential follow-up, proceed to CDA / confidential diligence.
-   - State what would change the recommendation.
-
-## Standard Outputs
-
-- `templates/scouting_memo.md`
-- `templates/scouting_scorecard.csv`
-
-## Quality Bar
-
-- Do not write a full diligence memo from a sparse non-confidential package.
-- Do not treat missing detailed data as a defect by itself.
-- Separate "interesting if true" from "verified."
-- Make the recommended next BD action concrete.
+If a CDA is subsequently executed and a user starts a new request with confidential, primary, data-room, or discipline-level material, use `workflows/primary_diligence_workflow.md`. That is a separate engagement, not the next step of this workflow.

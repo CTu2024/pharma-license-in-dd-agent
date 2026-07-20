@@ -15,7 +15,7 @@
 
 ## Scouting Recommendation
 
-Recommendation: `Pass / Monitor / Intro Call / Request Non-Confidential Follow-Up / Proceed To CDA / Confidential Diligence`
+Recommendation: `Pass / Monitor / Intro Call / Request Non-Confidential Follow-Up / Recommend CDA / Confidential Diligence`
 
 Rationale:
 
@@ -69,4 +69,5 @@ Rationale:
 
 ## Recommended Next Action
 
-- 
+- Human next step:
+- Scouting engagement status: `Ended`

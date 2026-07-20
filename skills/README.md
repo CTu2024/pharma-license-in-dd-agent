@@ -1,12 +1,18 @@
 # Skill Index
 
-## Shared Skills
+## Scouting Mode Skill
 
-- `scouting_triage`: Early BD scouting from non-confidential, public, teaser, or high-level information before CDA/full diligence.
+- `scouting_triage`: Self-contained early BD Scouting from public or explicitly non-confidential material; produces one next-step recommendation and ends.
+
+## Cross-Mode Skills
+
 - `evidence_traceability`: Citation discipline, source hierarchy, fact/assumption separation, and audit trail.
+- `diligence_question_drafting`: Converts risks and gaps into precise seller, expert, or internal questions.
+
+## Primary Diligence Shared Skills
+
 - `data_room_gap_review`: Stage-aware data room completeness review and company request generation.
 - `risk_matrix_writing`: Standardized risk statements, severity, likelihood, mitigation, and owner.
-- `diligence_question_drafting`: Converts risks and gaps into precise seller, expert, or internal questions.
 
 ## Specialist Skills
 
@@ -35,7 +41,9 @@
 
 ## Usage Pattern
 
-Use shared skills in every diligence run. Add specialist skills only when the routed sub-agent needs that specific method.
+For Scouting, use `scouting_triage`, `evidence_traceability`, and `diligence_question_drafting`, plus only targeted specialist skills needed for the recommendation.
+
+For Primary Diligence, use `evidence_traceability`, `data_room_gap_review`, `risk_matrix_writing`, and `diligence_question_drafting` in every engagement. Add specialist skills only for activated workstreams.
 
 ## Deepened Skills With References
 

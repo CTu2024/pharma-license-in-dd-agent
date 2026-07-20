@@ -1,6 +1,6 @@
 ---
 name: scouting-triage
-description: Evaluate early pharma license-in opportunities from public, non-confidential, teaser, banker-deck, conference, or intro-call information and recommend whether to pass, monitor, schedule an intro call, request non-confidential follow-up, or seek human authorization to proceed to CDA/confidential diligence. Use for pre-CDA scouting memos, scorecards, follow-up questions, CDA gate questions, and next-step decisions; do not use as a substitute for full confidential diligence.
+description: Evaluate early pharma license-in opportunities from public or explicitly non-confidential teaser, banker-deck, conference, public-source, or intro-call information and recommend Pass, Monitor, Intro Call, Request Non-Confidential Follow-Up, or Recommend CDA / Confidential Diligence. Use for a self-contained Scouting engagement that produces a memo, scorecard, follow-up questions, and one next-step recommendation, then ends; do not use for confidential, primary, data-room, discipline-level, or integrated diligence.
 ---
 
 # Scouting Triage
@@ -20,15 +20,15 @@ Determine the smallest decision-useful next BD step without treating sparse scou
 
 ## Workflow
 
-1. **Set the boundary.** Identify the immediate BD decision, available source types, dates, confidentiality status, and material source limitations. If confidential primary materials require integrated review, stop scouting and route to full diligence.
+1. **Set the boundary.** Identify the immediate BD decision, source types, dates, confidentiality status, and material source limitations. If confidentiality is unclear, ask the user to clarify. If confidential, primary, data-room, or discipline-level materials require diligence, stop without analyzing them and explain that they belong in a separate Primary Diligence engagement.
 2. **Build the snapshot.** Capture the company, asset, target or pathway, modality, stage, indications, geography, proposed transaction, available rights, seller motivation, and process timing. Mark unknowns explicitly.
 3. **Frame the opportunity thesis.** State three to five reasons the opportunity could matter. Phrase unsupported value-driving statements as hypotheses or unverified claims.
 4. **Identify decision-critical claims.** For each claim, record why it matters, available support, confidence, and whether it can be clarified before CDA or requires confidential diligence.
 5. **Score the opportunity.** Use `High / Medium / Low / Unknown` and apply `references/scouting_score_and_actions.md`. Do not convert unknown into low unless the absence itself is decision-relevant and supported.
 6. **Test actionability.** Assess strategic fit, reason to believe, differentiation, lead-indication logic, development feasibility, IP and control, available rights, seller motivation, process risk, internal ownership, and timing only to the depth supported by the sources.
 7. **Separate the questions.** Classify questions as `Must Answer Before CDA`, `Can Answer After CDA`, or `Internal Alignment Needed`. Read `references/cda_gate_question_library.md` when drafting them.
-8. **Select one next action.** Apply the recommendation criteria below, explain the decisive factors, identify walk-away signals, and state what would trigger reassessment.
-9. **Produce the deliverables.** Complete `templates/scouting_memo.md` and `templates/scouting_scorecard.csv`. Preserve uncertainty instead of filling gaps with assumptions.
+8. **Select one recommendation.** Apply the criteria below, explain the decisive factors, identify walk-away signals, and state what would trigger reassessment.
+9. **Produce and terminate.** Complete `templates/scouting_memo.md` and `templates/scouting_scorecard.csv`, preserve uncertainty, state the human next step, and end the Scouting engagement. Do not activate or continue into Primary Diligence.
 
 ## Recommendation Criteria
 
@@ -36,7 +36,7 @@ Determine the smallest decision-useful next BD step without treating sparse scou
 - **Monitor** — Use when the opportunity is potentially relevant but too early, inactive, not presently actionable, dependent on a future inflection, or lacks an internal reason to act now. Define the monitoring trigger and timing.
 - **Intro Call** — Use when plausible fit exists and a short conversation can efficiently clarify basic facts, seller motivation, rights, data existence, lead indication, development path, or process. Read `references/intro_call_agenda.md`.
 - **Request Non-Confidential Follow-Up** — Use when the opportunity merits further review and specific non-confidential materials or answers can resolve the next decision without CDA. Request only decision-relevant items.
-- **Proceed To CDA / Confidential Diligence** — Recommend seeking human authorization when strategic fit is at least medium, the value-driving hypothesis is plausible, relevant rights may be available, an internal owner exists, and identified confidential materials could materially change the decision. A recommendation is not authorization to execute a CDA.
+- **Recommend CDA / Confidential Diligence** — Recommend that an authorized human consider the next transaction step when strategic fit is at least medium, the value-driving hypothesis is plausible, relevant rights may be available, an internal owner exists, and identified confidential materials could materially change the decision. This recommendation ends Scouting; it is not authorization, CDA execution, or an automatic handoff.
 
 If more than one action appears viable, choose the least costly action that can resolve the decisive uncertainty, unless process timing creates a documented reason to escalate faster.
 
@@ -78,7 +78,9 @@ Before delivering, confirm that:
 - the output does not imply final scientific, clinical, legal, regulatory, valuation, or investment approval;
 - the questions are prioritized and tied to a decision;
 - the recommendation is exactly one allowed action; and
-- the proposed next step is concrete and proportionate.
+- the proposed next step is concrete and proportionate;
+- the output clearly ends the Scouting engagement; and
+- no automatic Primary Diligence activation or handoff is implied.
 
 ## References
 

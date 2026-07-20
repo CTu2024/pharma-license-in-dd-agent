@@ -2,10 +2,11 @@
 
 ## 1. Decision
 
-- **Recommended next action:** `Pass / Monitor / Intro Call / Request Non-Confidential Follow-Up / Proceed To CDA / Confidential Diligence`
+- **Recommended next action:** `Pass / Monitor / Intro Call / Request Non-Confidential Follow-Up / Recommend CDA / Confidential Diligence`
 - **Confidence:** `High / Medium / Low / Unknown`
 - **Executive rationale:**
 - **Human authorization required:** `Yes / No`
+- **Scouting engagement status:** `Ended`
 
 ## 2. Source Inventory and Limitations
 

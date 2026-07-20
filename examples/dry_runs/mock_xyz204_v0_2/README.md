@@ -8,6 +8,11 @@ This dry run tests the expanded agent system on a broader Phase 2 regional licen
 
 - `examples/mock_opportunity_xyz204.md`
 
+## Operational Mode
+
+- Primary Diligence using `workflows/primary_diligence_workflow.md`
+- No prior Scouting engagement is required.
+
 ## Agents Expected To Activate
 
 - Primary Diligence Agent

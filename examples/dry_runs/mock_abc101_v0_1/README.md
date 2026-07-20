@@ -8,7 +8,7 @@ Input:
 
 Workflow:
 
-- `workflows/initial_triage_workflow.md`
+- `workflows/primary_diligence_workflow.md`
 
 Outputs:
 

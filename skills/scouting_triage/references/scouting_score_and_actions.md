@@ -54,7 +54,7 @@ Use when:
 - CDA would be premature without knowing what reports exist.
 - Need a data inventory, lead indication rationale, IP summary, or process overview.
 
-### Proceed To CDA / Confidential Diligence
+### Recommend CDA / Confidential Diligence
 
 Use when:
 
@@ -65,6 +65,8 @@ Use when:
 - Transaction rights appear potentially compatible.
 - Internal owner exists.
 
+This recommendation is presented for human decision and ends the Scouting engagement. It does not execute a CDA or begin Primary Diligence.
+
 ## Scouting Kill Signals
 
 - No primary reports exist for core claims.
@@ -73,4 +75,3 @@ Use when:
 - Transaction rights are not available or unclear.
 - Seller refuses to clarify what data exist after CDA.
 - No internal owner is willing to sponsor the next step.
-

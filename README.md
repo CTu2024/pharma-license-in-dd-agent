@@ -1,135 +1,67 @@
 # Pharma License-In Due Diligence Agent
 
-An open, modular agent workflow system for pharma license-in due diligence.
+An open, modular operating model for pharma license-in scouting and due diligence.
 
-This repository provides agent charters, sub-agent roles, reusable skills, workflow instructions, templates, and mock dry runs for structured pharmaceutical business development diligence. It is designed to help teams turn a license-in opportunity package into source-backed workstream reports, risk matrices, follow-up questions, and an integrated decision memo.
+The repository supports two independent operational modes:
+
+1. **Scouting** — evaluate public or explicitly non-confidential information, recommend the next BD step, and end the engagement.
+2. **Primary Diligence** — evaluate confidential, primary, data-room, or discipline-level material, coordinate specialist workstreams, produce an integrated recommendation, and end the engagement.
+
+A human-controlled CDA and transaction process may occur between the modes, but the system does not execute that process or transition automatically.
 
 ## What This Is
 
-This is a reusable diligence operating model. It helps an AI agent or human team:
+This repository provides agent charters, reusable skills, engagement workflows, templates, and sanitized examples for structured pharmaceutical business-development review. It helps an AI agent or human team:
 
-- route diligence work across specialist sub-agents
-- compare provided materials against stage-specific evidence requirements
-- separate facts, assumptions, inferences, and open questions
-- produce discipline-level workstream analysis reports
-- integrate risks across clinical, CMC, regulatory, IP, market access, valuation, and deal structure
-- generate precise company follow-up requests
-- produce a decision-ready executive memo
-- support early scouting decisions when only high-level non-confidential information is available
+- screen early opportunities from non-confidential material;
+- distinguish scouting hypotheses from diligence conclusions;
+- register and trace confidential diligence sources;
+- compare a package with stage-appropriate evidence requirements;
+- route decision-material specialist workstreams;
+- integrate risks, gaps, questions, and workstream conclusions; and
+- produce a decision-ready scouting or diligence recommendation.
 
 ## What This Is Not
 
-This repository does not provide medical, legal, regulatory, financial, tax, investment, or professional advice. It is a workflow and template system. Outputs should be reviewed by qualified experts before being used in real transaction decisions.
+This repository does not provide medical, legal, regulatory, financial, tax, investment, or other professional advice. It does not sign or approve CDAs, authorize transactions, or automate human governance. Outputs require review by accountable qualified experts.
 
 See [DISCLAIMER.md](DISCLAIMER.md).
 
-## Current Scope
+## Choose One Mode
 
-The first version focuses on early-to-mid diligence triage for a pharma license-in opportunity.
+| User request and supplied material | Mode | Owner | Engagement output |
+|---|---|---|---|
+| Public or explicitly non-confidential material; decide whether the opportunity merits another BD step | Scouting | [Scouting Triage Agent](agents/scouting_triage_agent.md) | Scouting memo, scorecard, and one next-step recommendation |
+| Confidential, primary, data-room, or discipline-level material; perform diligence, assess gaps, or integrate workstreams | Primary Diligence | [Primary Diligence Agent](agents/primary_diligence_agent.md) | Workstream reports, source register, risk matrix, questions, and integrated decision memo |
+| Confidentiality status or requested decision is unclear | Neither yet | User clarification required | Clarified mode and permitted source scope |
 
-Typical inputs:
+### Mode 1: Scouting
 
-- opportunity brief
-- data room document index
-- target or product overview
-- clinical summary or study report excerpt
-- CMC, regulatory, quality, or development summary
-- patent, contract, pricing, forecast, or deal-term summary when available
+Entry:
 
-Typical outputs:
+- public or explicitly non-confidential information; and
+- a request to choose the next BD step.
 
-- executive decision memo
-- discipline-level workstream analysis reports
-- stage-specific requirement check
-- integrated risk matrix
-- missing information log
-- seller follow-up question log
-- source register
+Recommendations:
 
-## Repository Map
+- `Pass`
+- `Monitor`
+- `Intro Call`
+- `Request Non-Confidential Follow-Up`
+- `Recommend CDA / Confidential Diligence`
 
-- [agents/](agents/README.md): Primary agent and specialist sub-agent charters.
-- [skills/](skills/README.md): Shared and specialist skill instructions.
-- [SKILL_COVERAGE.md](SKILL_COVERAGE.md): Sub-agent to specialist skill coverage matrix.
-- [workflows/](workflows/initial_triage_workflow.md): End-to-end diligence workflow.
-- [templates/](templates/): Standard memo, workstream report, risk, question, requirement, and source templates.
-- [examples/](examples/): Mock opportunity packages and dry runs.
-- [evals/](evals/test_cases.md): Lightweight cases for testing output quality.
-- [ROADMAP.md](ROADMAP.md): Planned expansion path.
+Every recommendation ends the Scouting engagement. If the recommendation concerns CDA, an authorized human decides what happens next. The system does not activate Primary Diligence automatically.
 
-## Architecture
+Start with [workflows/scouting_triage_workflow.md](workflows/scouting_triage_workflow.md).
 
-The operating model has three layers, plus a lightweight scouting entry point:
+### Mode 2: Primary Diligence
 
-1. **Primary Diligence Agent**
-   - Owns the integrated recommendation.
-   - Routes workstreams.
-   - Consolidates discipline outputs.
+Entry:
 
-2. **Scouting Triage Agent**
-   - Owns pre-CDA scouting recommendations.
-   - Uses public, non-confidential, teaser, banker, conference, or intro-call information.
-   - Recommends pass, monitor, intro call, request non-confidential follow-up, or proceed to CDA.
+- an explicit diligence request; and
+- confidential, primary, data-room, or discipline-level material.
 
-3. **Sub-Agents**
-   - Own discipline-level judgments.
-   - Produce workstream analysis reports.
-   - Refuse conclusions outside their scope.
-
-4. **Skills**
-   - Shared skills enforce evidence traceability, stage-aware gap review, risk writing, and diligence question drafting.
-   - Specialist skills guide discipline-specific analysis such as biostatistics, regulatory precedent, IP triage, market access, pricing, valuation, and deal structure.
-
-## Quick Start
-
-For early scouting with only non-confidential information, start here:
-
-[workflows/scouting_triage_workflow.md](workflows/scouting_triage_workflow.md)
-
-Use the scouting agent:
-
-[agents/scouting_triage_agent.md](agents/scouting_triage_agent.md)
-
-Use the scouting template:
-
-[templates/scouting_memo.md](templates/scouting_memo.md)
-
-For fuller diligence triage, review the main workflow:
-
-[workflows/initial_triage_workflow.md](workflows/initial_triage_workflow.md)
-
-Use scouting mode before CDA or data-room access; use initial triage after enough confidential or primary source material is available.
-
-Then inspect the richer mock dry run:
-
-[examples/dry_runs/mock_xyz204_v0_2/README.md](examples/dry_runs/mock_xyz204_v0_2/README.md)
-
-Key outputs from that dry run:
-
-- [decision_memo.md](examples/dry_runs/mock_xyz204_v0_2/decision_memo.md)
-- [workstream_reports/](examples/dry_runs/mock_xyz204_v0_2/workstream_reports/)
-- [requirement_check.csv](examples/dry_runs/mock_xyz204_v0_2/requirement_check.csv)
-- [risk_matrix.csv](examples/dry_runs/mock_xyz204_v0_2/risk_matrix.csv)
-- [question_log.csv](examples/dry_runs/mock_xyz204_v0_2/question_log.csv)
-- [source_register.csv](examples/dry_runs/mock_xyz204_v0_2/source_register.csv)
-
-## How To Run A Dry Run
-
-1. Choose an input package from `examples/` or create a sanitized opportunity brief.
-2. Use `workflows/initial_triage_workflow.md`.
-3. Activate only the sub-agents relevant to the asset and decision question.
-4. Apply the four shared skills in every run:
-   - Evidence Traceability
-   - Data Room Gap Review
-   - Risk Matrix Writing
-   - Diligence Question Drafting
-5. Add specialist skills where needed.
-6. Produce workstream reports before writing the integrated decision memo.
-7. Review the output against the checklist in the dry-run README.
-
-## Recommendation Labels
-
-The primary agent should choose one integrated recommendation:
+Recommendations:
 
 - `Pursue`
 - `Pause`
@@ -137,22 +69,57 @@ The primary agent should choose one integrated recommendation:
 - `Reject`
 - `Request More Data`
 
-Every recommendation should state the rationale, key assumptions, conditions that would change the recommendation, and human expert escalations.
+A previous scouting review is optional. A sparse confidential package remains a Primary Diligence intake and gap-review problem; it does not revert to Scouting.
+
+Start with [workflows/primary_diligence_workflow.md](workflows/primary_diligence_workflow.md).
+
+## Architecture
+
+```text
+Agent     = owns one engagement and its authority boundaries
+Skill     = supplies a reusable analytical method
+Workflow  = defines entry, sequence, exit, and handoff boundaries
+Template  = defines the deliverable structure
+```
+
+- [agents/](agents/README.md): Scouting, Primary Diligence, and specialist agent charters.
+- [skills/](skills/README.md): Shared and specialist analytical methods.
+- [SKILL_COVERAGE.md](SKILL_COVERAGE.md): Agent-to-skill coverage matrix.
+- [workflows/](workflows/): The two independent engagement workflows.
+- [templates/](templates/): Standard scouting, workstream, risk, question, source, and decision outputs.
+- [examples/](examples/): Sanitized prompts, mock packages, and dry runs.
+- [share/scouting_triage_chat/](share/scouting_triage_chat/): Portable Scouting package for chat-only LLM users.
+- [evals/](evals/test_cases.md): Lightweight behavior and boundary cases.
+
+## Scouting Quick Start
+
+1. Confirm all supplied material is public or explicitly non-confidential.
+2. Use `agents/scouting_triage_agent.md` and `skills/scouting_triage/SKILL.md`.
+3. Follow `workflows/scouting_triage_workflow.md`.
+4. Produce `templates/scouting_memo.md` and `templates/scouting_scorecard.csv`.
+5. Present one recommendation and end the engagement.
+
+For a chat-only user, use [SCOUTING_TRIAGE_CHAT_PROMPT.md](share/scouting_triage_chat/SCOUTING_TRIAGE_CHAT_PROMPT.md).
+
+## Primary Diligence Quick Start
+
+1. Confirm the user explicitly requests diligence and is authorized to provide the supplied confidential or primary material.
+2. Use `agents/primary_diligence_agent.md`.
+3. Follow `workflows/primary_diligence_workflow.md`.
+4. Activate only decision-material specialist workstreams.
+5. Apply Evidence Traceability, Data Room Gap Review, Risk Matrix Writing, and Diligence Question Drafting.
+6. Produce workstream reports before integration unless explicitly waived.
+7. Deliver one integrated recommendation and end the engagement.
+
+See the richer mock run at [examples/dry_runs/mock_xyz204_v0_2/README.md](examples/dry_runs/mock_xyz204_v0_2/README.md).
 
 ## Development Status
 
-This is an early scaffold intended for iteration. The current repo is useful for structured thinking, mock dry runs, and prompt/workflow development. It is not yet a production application or automated diligence platform.
+This is an early scaffold for structured thinking, sanitized dry runs, and prompt/workflow development. It is not a production application or an automated diligence platform.
 
 ## Contributing
 
-Contributions are welcome. Good contributions usually improve one of four things:
-
-- sharper sub-agent boundaries
-- better specialist skill instructions
-- more realistic mock diligence cases
-- stronger evaluation criteria
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions should improve agent boundaries, analytical skills, sanitized examples, or evaluation criteria without adding confidential or proprietary information. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

@@ -2,6 +2,36 @@
 
 Use these cases to test whether the agent system produces disciplined diligence outputs.
 
+## Case 0A: Non-Confidential Scouting Ends
+
+Input:
+
+- Public company presentation
+- Non-confidential asset teaser
+- Request to decide the next BD step
+
+Expected behavior:
+
+- Scouting Triage Agent owns the engagement.
+- Output uses exactly one Scouting recommendation.
+- `Recommend CDA / Confidential Diligence` is presented for human decision, not executed.
+- Engagement ends without activating the Primary Diligence Agent.
+
+## Case 0B: Independent Primary Diligence Entry
+
+Input:
+
+- Explicit user request for diligence
+- Confidential data-room index
+- One primary study report and several discipline summaries
+- No prior scouting memo
+
+Expected behavior:
+
+- Primary Diligence Agent activates without requiring prior Scouting.
+- Sources are registered and material workstreams are routed.
+- A sparse package produces a gap assessment or `Request More Data`, not a return to Scouting.
+
 ## Case 1: Summary-Only Package
 
 Input:
@@ -46,4 +76,3 @@ Expected behavior:
 - Agent should label target biology confidence as limited.
 - Agent should avoid overstating proof of mechanism.
 - Follow-up questions should request translational evidence and biomarker assay validation.
-

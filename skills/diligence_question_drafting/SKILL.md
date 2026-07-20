@@ -1,6 +1,6 @@
 ---
 name: diligence-question-drafting
-description: Use when converting pharma diligence evidence gaps, risk flags, or inconsistent claims into precise seller, data room, expert call, or internal follow-up questions.
+description: Use when converting pharma license-in Scouting or Primary Diligence evidence gaps, risk flags, or inconsistent claims into precise non-confidential follow-up, seller, data-room, expert-call, or internal questions.
 ---
 
 # Diligence Question Drafting Skill
@@ -38,4 +38,3 @@ Good diligence questions are:
 ## Style
 
 Use concise professional language. Avoid accusatory phrasing. Ask for evidence rather than reassurance.
-
