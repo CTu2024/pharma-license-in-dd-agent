@@ -4,14 +4,6 @@
 
 Produce a source-backed first-pass diligence view for an early pharma license-in opportunity.
 
-## Relationship To Scouting
-
-Use `workflows/scouting_triage_workflow.md` before this workflow when the opportunity is based only on public, non-confidential, teaser, banker, conference, or intro-call information.
-
-Use this initial triage workflow after the opportunity has passed scouting or when enough confidential, primary, or substantive diligence material is available to route discipline workstreams.
-
-Scouting asks whether the opportunity deserves the next BD step. Initial triage asks what the diligence package shows, what risks matter, what gaps remain, and which specialist sub-agents should be activated.
-
 ## Inputs
 
 - Opportunity brief
