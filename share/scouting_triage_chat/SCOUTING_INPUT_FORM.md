@@ -1,6 +1,6 @@
-# Scouting Triage Input Form
+# Optional Scouting Triage Input Form
 
-Complete what is known. Enter `Unknown` rather than guessing. Do not include confidential, personal, privileged, or restricted information unless the chat service and your organization explicitly permit it.
+Use this form only to add relevant information that is not already contained in the supplied source material. It is not required when the sources provide enough information for the scouting decision. Complete only what is useful, enter `Unknown` rather than guessing, and do not duplicate source content unnecessarily. Do not include confidential, personal, privileged, or restricted information unless the chat service and your organization explicitly permit it.
 
 ## Immediate Decision
 
